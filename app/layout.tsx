@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Poppins, Poiret_One } from "next/font/google";
+
+const poppins = Poppins({ 
+  subsets: ["latin"], 
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: '--font-poppins'
+});
+const poiretOne = Poiret_One({ 
+  subsets: ["latin"], 
+  weight: ["400"],
+  variable: '--font-poiret-one'
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${poppins.variable} ${poiretOne.variable}`}>
+        {children}
+      </body>
+      
     </html>
   );
 }
