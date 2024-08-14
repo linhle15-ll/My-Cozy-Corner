@@ -8,14 +8,6 @@ import 'react-social-icons/github'
 import 'react-social-icons/instagram'
 
 const Home = () => {
-  useEffect(() => {
-    // Trigger animations after a slight delay for a smooth effect
-    const elements = document.querySelectorAll("div");
-    elements.forEach((el) => {
-      el.classList.add('animate-slide-in-fade');
-    });
-  },[]);
-
   const saveFile = () => {
     saveAs(
       "http://localhost:3000/linhle_resume.pdf",
@@ -30,7 +22,7 @@ const Home = () => {
         <div className="font-poiret text-h9 md:text-h9 lg:text-h8 ">
         Hello, I am
         </div>
-        <div className="font-poppins font-600 text-h7 md:text-h6 lg:text-h5 text-green">
+        <div className="font-poppins font-600 text-h6 md:text-h6 lg:text-h5 text-green">
         LINH/ NGOC LINH LE
         </div>
         <div className="font-poppins font-extralight text-h9 md:text-h9 lg:text-h8">
@@ -46,7 +38,7 @@ const Home = () => {
         {DownloadIcon}
         Resume
         </button >
-        <button className=" flex-row g-2 white border border-green font-poppins font-bold rounded-lower py-2 px-6 mt-16 text-[12px]
+        <button className="flex-row g-2 white border border-green font-poppins font-bold rounded-lower py-2 px-6 mt-16 text-[12px]
         md:text-[14px] md:py-4 md:px-8
         lg:text-[16px] lg:py-4 lg:px-[20px]
         hover:border-darkerGreen hover:transition-all transform hover:scale-90">

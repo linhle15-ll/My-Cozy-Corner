@@ -1,10 +1,11 @@
 "use client";
 import React, {useEffect} from "react";
 
-import { saveAs } from 'file-saver';
-
 import Home from '@/components/home'
+import About from '@/components/about'
 import Contact from '@/components/contact'
+import Experience from "@/components/experience";
+
 import 'react-social-icons/linkedin'
 import 'react-social-icons/github'
 import 'react-social-icons/instagram'
@@ -19,12 +20,14 @@ const HomePage = () => {
   },[]);
 
   return (
-    <div className="bg-lighYellowGreen py-5">
+    <div className="bg-lightYellowGreen py-5">
       <div className = "font-poiret flex-row content-between ml-5 text-xl md:text-xl lg:text-2xl">
         Linh's <span className = "text-darkGreen">cozy corner</span>
       </div>
       <div>
         <Home />
+        <About />
+        <Experience />
         <Contact />
       </div>
     </div>

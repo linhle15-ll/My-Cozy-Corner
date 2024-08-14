@@ -35,10 +35,13 @@ module.exports = {
       },
       colors: {
         green: "#9CD520",
-        darkerGreen: "#85B719",
+        brightGreen: "rgb(180 238 53)",
+        darkGreen: "#85B719",
         lightGreen: "#B3E481",
         lightYellow: "#F2FFBC",
-        lighYellowGreen: "#EFFFE2"
+        lightYellowGreen: "#EFFFE2",
+        lightBlack: '#000000c7',
+        darkPink: "#dc406f"
       },
       spacing: {
         '10': '0.5em',
@@ -55,6 +58,9 @@ module.exports = {
         'medium': '35px',
         'low':'25px',
         'lower':'15px'
+      },
+      borderWidth: {
+        "medium": "1.5px",
       },
       keyframes: {
         'slide-in-fade': {
