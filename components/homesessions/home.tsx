@@ -10,7 +10,7 @@ import 'react-social-icons/instagram'
 const Home = () => {
   const saveFile = () => {
     saveAs(
-      "http://localhost:3000/linhle_resume.pdf",
+      "http://localhost:3000/Ngoc Linh Le, le224l@mtholyoke.edu, resume.pdf",
       "NgocLinhLe_resume.pdf"
     );
   };
@@ -22,7 +22,7 @@ const Home = () => {
         <div className="font-poiret text-h9 md:text-h9 lg:text-h8 ">
         Hello, I am
         </div>
-        <div className="font-poppins font-600 text-h6 md:text-h6 lg:text-h5 text-green">
+        <div className="font-poppins font-600 text-h5 md:text-h5 lg:text-h4 text-green">
         LINH/ NGOC LINH LE
         </div>
         <div className="font-poppins font-extralight text-h9 md:text-h9 lg:text-h8">

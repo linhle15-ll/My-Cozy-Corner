@@ -1,10 +1,12 @@
 "use client";
 import React, {useEffect} from "react";
 
-import Home from '@/components/home'
-import About from '@/components/about'
-import Contact from '@/components/contact'
-import Experience from "@/components/experience";
+import Home from '@/components/homesessions/home'
+import About from '@/components/homesessions/about'
+import Contact from '@/components/homesessions/contact'
+import Experience from "@/components/homesessions/experience";
+import Projects from "@/components/homesessions/projects";
+import Footer from "@/components/homesessions/footer";
 
 import 'react-social-icons/linkedin'
 import 'react-social-icons/github'
@@ -24,11 +26,13 @@ const HomePage = () => {
       <div className = "font-poiret flex-row content-between ml-5 text-xl md:text-xl lg:text-2xl">
         Linh's <span className = "text-darkGreen">cozy corner</span>
       </div>
-      <div>
+      <div className="flex flex-col justify-center contents-center">
         <Home />
         <About />
         <Experience />
+        <Projects />
         <Contact />
+        <Footer />
       </div>
     </div>
     

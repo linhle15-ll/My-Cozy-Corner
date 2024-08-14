@@ -32,6 +32,8 @@ module.exports = {
         'h7': ['2rem', { lineHeight: '1.2' }],
         'h8': ['1.5rem', { lineHeight: '1.2' }],
         'h9': ['1.25rem', { lineHeight: '1.2' }],
+        'h10': ['1rem', { lineHeight: '1.2' }],
+        'h11': ['0.875rem', { lineHeight: '1.2' }],
       },
       colors: {
         green: "#9CD520",

@@ -4,7 +4,7 @@ import { experienceArr }  from '@/utils/experiences'; // Adjust path as necessar
 
 const ExperienceCards: React.FC = () => {
     return (
-        <div className="font-poppins flex flex-col gap-9 p-5 items-center justify-center md:flex md:flex-col lg:flex lg:flex-row">
+        <div className="font-poppins flex flex-col gap-9 p-5 md:flex md:flex-col lg:flex lg:flex-row">
 ‌            {experienceArr.map((item: any) => (
                 <div key={item.key} className="group relative block w-[400px] sm:h-80 sm:w-[400px] lg:h-90">
                     <span className="absolute inset-0 border-2 border-dashed border-darkGreen rounded-low"></span>
