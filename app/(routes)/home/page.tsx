@@ -7,7 +7,7 @@ import Contact from '@/components/homesessions/contact'
 import Experience from "@/components/homesessions/experience";
 import Projects from "@/components/homesessions/projects";
 import Footer from "@/components/homesessions/footer";
-import NavigationBar from "@/components/navigation-bar";
+import NavigationBar from "@/components/ui/navigation-bar";
 
 import 'react-social-icons/linkedin'
 import 'react-social-icons/github'
