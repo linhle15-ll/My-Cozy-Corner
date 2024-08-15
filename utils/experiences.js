@@ -12,14 +12,14 @@ export const experienceArr = [
     },
     {
         key: 2,
-        title: 'Programming Languages',
-        description: "Python, Java, JavaScript, R",
+        title: 'Programming Skills',
+        description: "Python, Java, JavaScript, R, Full-stack Web Development with MERN Stack (MongoDB, Express.js, React.js, Node.js)",
         icon: ProgrammingIcon
     },
     {
         key: 3,
         title: 'Applications',
-        description: "VSCode, 3T Studio, MongoDB, Postman, Git, Github, Figma, Adobe Illustrator",
+        description: "REST APIs, Microsoft Azure, OpenAI API, Zustand, VSCode, 3T Studio, Postman, Git, Figma, Adobe Illustrator",
         icon: AppICon
     }
 ]

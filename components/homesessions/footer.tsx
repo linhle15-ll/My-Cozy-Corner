@@ -9,16 +9,16 @@ const Footer = () => {
         >
             <ul className="font-poppins flex flex-row items-center justify-center text-h9 cursor-pointer mb-5
                             md:mb-5 lg:mb-0">
-                <li className="rounded-[10px] py-1 px-2 mr-3 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
+                <li className="rounded-[10px] py-1 px-2 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
                     <a href="#home">Home</a>
                 </li>
-                <li className="rounded-[10px] py-1 px-2 mr-3 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
+                <li className="rounded-[10px] py-1 px-2 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
                     <a href="#about">About</a>
                 </li>
-                <li className="rounded-[10px] py-1 px-2 mr-3 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
+                <li className="rounded-[10px] py-1 px-2 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
                     <a href="#experience">Experience</a>
                 </li>
-                <li className="rounded-[10px] py-1 px-2 mr-3 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
+                <li className="rounded-[10px] py-1 px-2 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
                     <a href="#projects">Projects</a>
                 </li>
                 <li className="rounded-[10px] py-1 px-2 transition-all transition-duration-300 ease-in-out hover:bg-darkPink hover:text-white">
