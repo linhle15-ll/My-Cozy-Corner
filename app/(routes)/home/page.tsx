@@ -25,7 +25,7 @@ const HomePage = () => {
   return (
     <div className="bg-lightYellowGreen py-5 scroll-smooth">
       <div className = "font-poiret flex-row content-between ml-5 text-xl md:text-xl lg:text-2xl">
-        Linh's <span className = "text-darkGreen">cozy corner</span>
+        Linh&apos;s <span className = "text-darkGreen">cozy corner</span>
       </div>
       <div className="flex flex-col justify-center contents-center">
         <NavigationBar />

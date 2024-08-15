@@ -4,7 +4,7 @@ import { EmailIcon, InstagramIcon, LinkedinIcon } from '@/utils/icons'
 import Swal from 'sweetalert2';
 
 
-const ACCESS_KEY = process.env.NEXT_PUBLIC_ACCESS_KEY;
+const ACCESS_KEY = process.env.NEXT_PUBLIC_ACCESS_KEY || "";
 
 const Contact = () => {
     const onSubmit = async (e: any) => { //mark as spam?
