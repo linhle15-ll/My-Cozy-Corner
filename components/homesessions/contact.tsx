@@ -32,7 +32,6 @@ const Contact = () => {
                 text: "Your message has been sent.",
                 icon: "success"
             });
-            e.target.reset();
         }
     };
 
