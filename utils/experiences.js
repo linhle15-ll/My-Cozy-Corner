@@ -3,6 +3,8 @@ import { CourseworksIcon, ProgrammingIcon, AppICon } from '@/utils/icons'
 import VIBlogo from '@/public/VIBlogo.png'
 import STEAMlogo from '@/public/STEAMlogo.jpg'
 import GWC from '@/public/GWC.png'
+import VSA from '@/public/VSA.png'
+
 export const experienceArr = [
     {
         key: 1,
