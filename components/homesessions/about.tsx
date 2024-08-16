@@ -30,7 +30,7 @@ const About = () => {
                         I am interested in reading about and practicing new tech stacks.
                         I also join organizations that promote Tech acquisition.
                     </span>
-                    <span> Come and <a href="id" className="font-bold">connect with me</a>! </span>
+                    <span> Come and <a href="#contact" className="font-bold">connect with me</a>! </span>
                     <div className="bg-white rounded-low p-5 flex flex-col">
                         <span className="font-poppins text-darkPink font-semibold text-h8">EDUCATION</span>
                         <span className="font-poppins mt-4 text-black leading-7">
