@@ -33,8 +33,8 @@ export const workExperienceArr = [
         link: "https://www.vib.com.vn/vn/home",
         startDate: 'June 2024',
         endDate: 'August 2024',
-        description1: 'Collaborated with fellow interns and engineer team to develop Intranet web application using MongoDb, Studio3T, and PL/SQL for data management, Next.js, Zustand for front-end, Node.js, Express.js and REST API endpoints for back-end, Postman for API testing, ensuring seamless users’ experience and promoting overall working productivity by 50%',
-        description2: 'Conducted research on AI and Cloud Technologies integration in core banking system and financial service, specifically OpenAI and AI Search services in Microsoft Azure environment, which identified mass potential in data management, maintenance, security, and faster data query in core banking system'
+        description1: 'Collaborated with fellow interns and engineer team to develop Intranet web application using MongoDb, Studio3T, and PL/SQL for data management, Next.js, Zustand for front-end, Node.js, Express.js and REST API endpoints for back-end, Postman for API testing, ensuring seamless users’ experience and promoting overall working productivity by 50%;',
+        description2: 'Conducted research on AI and Cloud Technologies integration in core banking system and financial service, specifically OpenAI and AI Search services in Microsoft Azure environment, which identified mass potential in data management, maintenance, security, and faster data query in core banking system.'
     }
 ]
 
@@ -45,10 +45,21 @@ export const leardershipExperienceArr = [
         title: 'Marketing Coordinator, Tech Event Organizer',
         organization: 'Girls Who Code MHC',
         link: "https://www.facebook.com/thesteamprojectvn/",
-        startDate: 'April 2022',
-        endDate: 'April 2024',
-        description1: 'Spearhead the promotion of technology and innovation within Mount Holyoke College and Girls Who Code organization by organizing 5 workshops on Hackathon, Industry Insight, Tech Research, Tech QnA, in partnership with Research students and tech industry experts, attracting an average of 50 students per session',
-        description2: 'Innovate Social Media strategies to boost organization’s impact within communities and bring technologies closer to college students using copywriting and graphic design skills'
+        startDate: 'Oct 2023',
+        endDate: 'Current',
+        description1: 'Spearhead the promotion of technology and innovation within Mount Holyoke College and Girls Who Code organization by organizing 5 workshops on Hackathon, Industry Insight, Tech Research, Tech QnA, in partnership with Research students and tech industry experts, attracting an average of 50 students per session;',
+        description2: 'Innovated Social Media strategies to boost organization’s impact within communities and bring technologies closer to college students using copywriting and graphic design skills.'
+    },
+    {
+        key: 2,
+        icon: VSA,
+        title: 'Former Marketing Coordinator, Present President',
+        organization: 'MHC Vietnamese Student Association',
+        link: "https://www.instagram.com/mhc.vsa/",
+        startDate: 'Sep 2023',
+        endDate: 'Current',
+        description1: 'Managed social media and organized annual Vietnamese cultural events such as Vietnam Night, Coffee Workshop, and Lunar New Year, thus enhancing community engagement and awareness of Vietnamese culture;',
+        description2: 'Successfully organized and performed in 2023 Vietnam Night, as measured by the attendance of > 200 students and faculties in Five College Consortium and 60% increase in Media promotion.'
     },
     {
         key: 2,
