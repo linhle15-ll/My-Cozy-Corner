@@ -16,8 +16,9 @@ export const projectsArr = [
         "title":"PennyWise",
         "role":"Full-stack Developer",
         "description":"A MERN stack for financial management",
-        "detail1":"Used MongoDB, Node.js, Express.js, Next.js, Zustand to develop a full-stack open-source financial app project;",
-        "detail2":"Designed an algorithm in Budget planning expectedly improves user’s financial updates and planning."
+        "detail1":"Developed and established a full-stack open-source financial app project using MERN stack, Zustand, and UI Libraries",
+        "detail2":"Created REST API endpoints using Express.js and MongoDB to handle data management and backend-frontend interactions",
+        "detail3":"Designed an algorithm in Budget planning that aligns with users’ habit in financial updates and planning"
     },
     {
         "key": 2,
@@ -28,8 +29,9 @@ export const projectsArr = [
         "title":"The STEAM Project",
         "role":"Co-founder, Project Manager",
         "description":"Educational Science-Technology-Engineering-Arts-Math project",
-        "detail1":"Established and led a project pioneering STEAM education focusing on science experiments, coding challenges, presentations for 140 secondary and high school students interested in Science and Technology in 2022 and 2023;",
-        "detail2":"Generally managed the project operation, which included marketing, program content, recruitment, and financial management."
+        "detail1":"Established and led a project pioneering STEAM education focusing on science experiments, coding challenges, presentations for 140 secondary and high school students interested in Science and Technology in 2022 and 2023",
+        "detail2":"Generally managed project operation with other department leaders and 40 members, including Marketing, Finance, HR, Logistics, Content, successfully organized 2 seasons of STEAM Summer Camp in 2022 and 2023",
+        "detail3":""
     },
     {
         "key": 3,
@@ -40,8 +42,9 @@ export const projectsArr = [
         "title":"Leaf Shield",
         "role":"UI/UX Designer, Presenter",
         "description":"Application promoting Sustainable Agriculture",
-        "detail1":"Worked cooperatively to create a web and mobile application that assists farmers to detect dark spot on leaves, which utilizes Machine Learning to detect potential crop blight with an accuracy up to 98.05%;",
-        "detail2":"Took major charge of Figma mockup, front-end, and worked partially on background data research for presentation."
+        "detail1":"Worked cooperatively to create a web and mobile application that assists farmers to detect dark spot on leaves, which utilizes Machine Learning to detect potential crop blight with an accuracy up to 98.05%",
+        "detail2":"Took major charge of Figma mockup, front-end, and worked partially on background data research for presentation",
+        "detail3":""
     },
     {
         "key": 4,
@@ -52,7 +55,8 @@ export const projectsArr = [
         "title":"ELabrary",
         "role":"Co-founder, Project Manager",
         "description":"Website promoting student's English self-study",
-        "detail1":" The website is utilized mostly by Ha Tinh high school students to revise English knowledge and help HS English club approach >150 students from 2022 - 2023, thus providing English mentorship and tips; ",
-        "detail2":"Worked cooperatively with Content team and led Technical team to develop the website with Figma mockups, Wordpress, and HTML integrations."
+        "detail1":"Led a team of 5 members and organized 3 weekly meetings to develop Elabrary, a website helping HS English Club reach out to other students and offer them quality English self-study content",
+        "detail2":"Contributed to an increase of 60% in HS English Club’s awareness within Ha Tinh student community",
+        "detail3":""
     },
 ]

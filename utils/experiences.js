@@ -35,8 +35,9 @@ export const workExperienceArr = [
         link: "https://www.vib.com.vn/vn/home",
         startDate: 'June 2024',
         endDate: 'August 2024',
-        description1: 'Collaborated with fellow interns and engineer team to develop Intranet web application using MongoDb, Studio3T, and PL/SQL for data management, Next.js, Zustand for front-end, Node.js, Express.js and REST API endpoints for back-end, Postman for API testing, ensuring seamless users’ experience and promoting overall working productivity by 50%;',
-        description2: 'Conducted research on AI and Cloud Technologies integration in core banking system and financial service, specifically OpenAI and AI Search services in Microsoft Azure environment, which identified mass potential in data management, maintenance, security, and faster data query in core banking system.'
+        description1: 'Collaborated with fellow interns and learned from engineers to develop an Intranet web application using MongoDb, Studio3T, Next.js, Node.js, Express.js, REST API, Zustand, Postman, ensuring seamless users’ experience and promoting overall working productivity by 50%',
+        description2: 'Conducted research on AI and Cloud Technologies on Microsoft Azure’s integration in banking system and financial service to improve efficiency, privacy, and data maintenance',
+        description3: 'Developed a Chatbot using Azure OpenAI API and MERN stack that helped users train their own Chatbot to process business documents faster and more securely'
     }
 ]
 
@@ -49,8 +50,8 @@ export const leardershipExperienceArr = [
         link: "https://www.facebook.com/thesteamprojectvn/",
         startDate: 'Oct 2023',
         endDate: 'Current',
-        description1: 'Spearhead the promotion of technology and innovation within Mount Holyoke College and Girls Who Code organization by organizing 5 workshops on Hackathon, Industry Insight, Tech Research, Tech QnA, in partnership with Research students and tech industry experts, attracting an average of 50 students per session;',
-        description2: 'Innovated Social Media strategies to boost organization’s impact within communities and bring technologies closer to college students using copywriting and graphic design skills.'
+        description1: 'Spearhead the promotion of technology and innovation within Mount Holyoke College and Girls Who Code organization by organizing 5 workshops on Hackathon, Industry Insight, Tech Research, Tech QnA, in partnership with Research students and tech industry experts, attracting an average of 50 students per session',
+        description2: 'Innovated Social Media strategies to boost organization’s impact within communities and bring technologies closer to college students using copywriting and graphic design skills'
     },
     {
         key: 2,
@@ -60,8 +61,8 @@ export const leardershipExperienceArr = [
         link: "https://www.instagram.com/mhc.vsa/",
         startDate: 'Sep 2023',
         endDate: 'Current',
-        description1: 'Managed social media and organized annual Vietnamese cultural events such as Vietnam Night, Coffee Workshop, and Lunar New Year, thus enhancing community engagement and awareness of Vietnamese culture;',
-        description2: 'Successfully organized and performed in 2023 Vietnam Night, as measured by the attendance of > 200 students and faculties in Five College Consortium and 60% increase in Media promotion.'
+        description1: 'Managed social media and organized annual Vietnamese cultural events such as Vietnam Night, Coffee Workshop, and Lunar New Year, thus enhancing community engagement and awareness of Vietnamese culture',
+        description2: 'Successfully organized and performed in 2023 Vietnam Night, as measured by the attendance of > 200 students and faculties in Five College Consortium and 60% increase in Media promotion'
     },
     {
         key: 2,
@@ -71,8 +72,8 @@ export const leardershipExperienceArr = [
         link: "https://www.facebook.com/thesteamprojectvn/",
         startDate: 'April 2022',
         endDate: 'April 2024',
-        description1: 'Established a project pioneering STEAM education that focused on science experiments, coding challenges, presentations for 140 secondary and high school students interested in Science and Technology in 2022 and 2023',
-        description2: 'Managed a team of 50 to organize summer camps and science fairs, which include building operation program, planning basic coding projects, and working on logistics, partnership, media in 2 seasons with 3 months/season'
+        description1: 'Established and led a project pioneering STEAM education focusing on science experiments, coding challenges, presentations for 140 students interested in Science and Technology in 2022 and 2023',
+        description2: 'Generally managed project operation with other department leaders and 40 members, including Marketing, Finance, HR, Logistics, Content, successfully organized 2 seasons of STEAM Summer Camp in 2022 and 2023'
     },
 
 ]

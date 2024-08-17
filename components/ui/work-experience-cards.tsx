@@ -37,6 +37,7 @@ const WorkExperience = () => {
                             <div className="flex flex-col gap-4 mt-4 text-sm sm:text-base leading-6 text-start">
                                 <div>{item.description1}</div>
                                 <div>{item.description2}</div>
+                                <div>{item.description3}</div>
                             </div>
                         </div>
                     </div>
