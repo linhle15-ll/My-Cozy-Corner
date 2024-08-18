@@ -5,7 +5,7 @@ import PennyWiseGif from "@/public/PennyWiseGif.gif"
 import PennyWiseImg from "@/public/PennyWise.png"
 import Elabrary from "@/public/Elabrary.png"
 import LeafShield from "@/public/LeafShield.png"
-
+import mywebsiteimg from "@/public/mywebsite.png"
 export const projectsArr = [
     {
         "key": 1,
@@ -59,4 +59,18 @@ export const projectsArr = [
         "detail2":"Contributed to an increase of 60% in HS English Club’s awareness within Ha Tinh student community",
         "detail3":""
     },
+    {
+        "key": 5,
+        "image":mywebsiteimg,
+        "icon":"",
+        "date":"Aug 2024",
+        "link":"https://github.com/linhle15-ll/My-Cozy-Corner",
+        "title":"My Cozy Corner",
+        "role":"Full-stack Developer",
+        "description":"My personal website",
+        "detail1":"Designed and Updated my own website using Figma and MERN stack",
+        "detail2":"",
+        "detail3":""
+    },
+    
 ]
