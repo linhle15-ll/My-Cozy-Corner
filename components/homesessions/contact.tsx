@@ -73,14 +73,14 @@ const Contact = () => {
                 <input type="hidden" name="from_name" value="Your Website's Message"></input>
                 <div className="font-poiret text-h8 mb-5 md:text-h7 lg:text-h7"> Stop by. Say Hi</div>
                 
-                <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black"
+                <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black focus:border-black focus:outline-none"
                     type="text" name="name"
                     placeholder="Your Name"
                 />
-                <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black"
+                <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black focus:border-black focus:outline-none"
                     type="email" name="email"
                     placeholder="Your Email" />
-                <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black"
+                <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black focus:border-black focus:outline-none"
                     type="text" name="subject"
                     placeholder="Subject" />
                 <textarea required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 h-40 max-h-40 placeholder-white focus:bg-white focus:text-black"
