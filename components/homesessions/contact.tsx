@@ -83,7 +83,7 @@ const Contact = () => {
                 <input required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 placeholder-white focus:bg-white focus:text-black focus:border-black focus:outline-none"
                     type="text" name="subject"
                     placeholder="Subject" />
-                <textarea required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 h-40 max-h-40 placeholder-white focus:bg-white focus:text-black"
+                <textarea required className="bg-transparent font-poppins text-[13px] md:text-[13px] lg:text-[14px] rounded-lower border-medium border-black p-3 mr-15 h-40 max-h-40 placeholder-white focus:bg-white focus:text-black focus:border-black focus:outline-none"
                     name="message"
                     placeholder="Your Message" />
                 <button className="bg-black text-white text-[13px] w-32 flex-row font-poppins font-bold rounded-lower py-2 px-6 mt-10
