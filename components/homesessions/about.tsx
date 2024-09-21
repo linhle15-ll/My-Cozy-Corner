@@ -21,7 +21,7 @@ const About = () => {
                                 lg:w-[75%] lg:text-start"
                 >
                     <span> Hello, I am Linh/Ngoc Linh Le, a passionate
-                        Computer and Statistics student with hands-on experience in 
+                        Computer Science and Mathematics/ Statistics student with hands-on experience in 
                         Full-stack Web Application Development.
                         I gained my experience via my Internship and Coding Projects. 
                     </span>
