@@ -34,7 +34,7 @@ const About = () => {
                     <div className="bg-white rounded-low p-5 flex flex-col">
                         <span className="font-poppins text-darkPink font-semibold text-h8">EDUCATION</span>
                         <span className="font-poppins mt-4 text-black leading-7">
-                            Double majors: Computer Science & Statistics <br/>
+                            Double majors: Computer Science & Mathematics/ Statistics <br/>
                             Mount Holyoke College <br/>
                             GPA: 4.0/4.0
                         </span>
