@@ -21,7 +21,7 @@ const About = () => {
                                 lg:w-[75%] lg:text-start"
                 >
                     <span> Hello, I am Linh/Ngoc Linh Le, a passionate
-                        Computer and Statistics student with hands-on experience in 
+                        Computer Science and Mathematics/ Statistics student with hands-on experience in 
                         Full-stack Web Application Development.
                         I gained my experience via my Internship and Coding Projects. 
                     </span>
@@ -34,7 +34,7 @@ const About = () => {
                     <div className="bg-white rounded-low p-5 flex flex-col">
                         <span className="font-poppins text-darkPink font-semibold text-h8">EDUCATION</span>
                         <span className="font-poppins mt-4 text-black leading-7">
-                            Double majors: Computer Science & Statistics <br/>
+                            Double majors: Computer Science & Mathematics/ Statistics <br/>
                             Mount Holyoke College <br/>
                             GPA: 4.0/4.0
                         </span>
