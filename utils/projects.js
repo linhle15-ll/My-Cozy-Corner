@@ -2,13 +2,28 @@ import STEAMlogo from '@/public/STEAMlogo.jpg'
 import PennyWiseLogo from "@/public/PennyWiseLogo.png"
 import STEAMimg from "@/public/STEAMimg.jpg"
 import PennyWiseGif from "@/public/PennyWiseGif.gif"
-import PennyWiseImg from "@/public/PennyWise.png"
 import Elabrary from "@/public/Elabrary.png"
 import LeafShield from "@/public/LeafShield.png"
 import mywebsiteimg from "@/public/mywebsite.png"
+import noteapp from "@/public/noteapp.png"
+import aitaskapp from "@/public/taskapp.png"
+
 export const projectsArr = [
     {
         "key": 1,
+        "image":STEAMimg,
+        "icon":STEAMlogo,
+        "date":"April 2022 - April 2024",
+        "link":" https://web.facebook.com/thesteamprojectvn",
+        "title":"The STEAM Project",
+        "role":"Co-founder, Project Manager",
+        "description":"Educational Science-Technology-Engineering-Arts-Math project",
+        "detail1":"Co-founded and led a project pioneering STEAM education focusing on science experiments, math and coding challenges, and group presentations for 140 underprivileged students interested in Science and Technology in Ha Tinh, Vietnam",
+        "detail2":"Managed project operation with department leaders and 50 members, successfully organized 2 STEAM Summer Camps",
+        "detail3":"Provided mentorship in programming logic and fundamental coding to student campers in 2022 and 2023"
+    },
+    {
+        "key": 2,
         "image":PennyWiseGif,
         "icon":PennyWiseLogo,
         "link":" https://github.com/linhle15-ll/finance-tracker-app-pennywise/tree/main",
@@ -19,19 +34,6 @@ export const projectsArr = [
         "detail1":"Developed and established a full-stack open-source financial app project using MERN stack, Zustand, and UI Libraries",
         "detail2":"Created REST API endpoints using Express.js and MongoDB to handle data management and backend-frontend interactions",
         "detail3":"Designed an algorithm in Budget planning that aligns with users’ habit in financial updates and planning"
-    },
-    {
-        "key": 2,
-        "image":STEAMimg,
-        "icon":STEAMlogo,
-        "date":"April 2022 - April 2024",
-        "link":" https://web.facebook.com/thesteamprojectvn",
-        "title":"The STEAM Project",
-        "role":"Co-founder, Project Manager",
-        "description":"Educational Science-Technology-Engineering-Arts-Math project",
-        "detail1":"Established and led a project pioneering STEAM education focusing on science experiments, coding challenges, presentations for 140 secondary and high school students interested in Science and Technology in 2022 and 2023",
-        "detail2":"Generally managed project operation with other department leaders and 40 members, including Marketing, Finance, HR, Logistics, Content, successfully organized 2 seasons of STEAM Summer Camp in 2022 and 2023",
-        "detail3":""
     },
     {
         "key": 3,
@@ -46,6 +48,7 @@ export const projectsArr = [
         "detail2":"Took major charge of Figma mockup, front-end, and worked partially on background data research for presentation",
         "detail3":""
     },
+    
     {
         "key": 4,
         "image":Elabrary,
@@ -72,5 +75,34 @@ export const projectsArr = [
         "detail2":"",
         "detail3":""
     },
+
+    {
+        "key": 6,
+        "image": noteapp,
+        "icon":"",
+        "date":"2024",
+        "link":"https://github.com/linhle15-ll/Note-App",
+        "title":"Notie (In progress)",
+        "role":"Full-stacke Developer",
+        "description":"A Note Bestie",
+        "detail1":"MERN Stack, Zustand, UI Libraries",
+        "detail2":"",
+        "detail3":""
+    },
+
+    {
+        "key": 6,
+        "image": aitaskapp,
+        "icon":"",
+        "date":"2024",
+        "link":"https://github.com/linhle15-ll/AITaskApp",
+        "title":"AI Task App (In progress)",
+        "role":"Full-stack Developer",
+        "description":"Bored of Tasking? Let AI Task App handle it",
+        "detail1":"MERN Stack, TailwindCSS, AppWrite, AI",
+        "detail2":"",
+        "detail3":""
+    },
+
     
 ]
