@@ -26,7 +26,7 @@ export const projectsArr = [
         "key": 2,
         "image":PennyWiseGif,
         "icon":PennyWiseLogo,
-        "link":" https://github.com/linhle15-ll/finance-tracker-app-pennywise/tree/main",
+        "link":"https://github.com/linhle15-ll/Finance-Tracker-App-Pennywise",
         "date":"July 2024",
         "title":"PennyWise",
         "role":"Full-stack Developer",
