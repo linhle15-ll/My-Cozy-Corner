@@ -90,19 +90,19 @@ export const projectsArr = [
         "detail3":""
     },
 
-    {
-        "key": 6,
-        "image": aitaskapp,
-        "icon":"",
-        "date":"2024",
-        "link":"https://github.com/linhle15-ll/AITaskApp",
-        "title":"AI Task App (In progress)",
-        "role":"Full-stack Developer",
-        "description":"Bored of Tasking? Let AI Task App handle it",
-        "detail1":"MERN Stack, TailwindCSS, AppWrite, AI",
-        "detail2":"",
-        "detail3":""
-    },
+    // {
+    //     "key": 6,
+    //     "image": aitaskapp,
+    //     "icon":"",
+    //     "date":"2024",
+    //     "link":"https://github.com/linhle15-ll/AITaskApp",
+    //     "title":"AI Task App (In progress)",
+    //     "role":"Full-stack Developer",
+    //     "description":"Bored of Tasking? Let AI Task App handle it",
+    //     "detail1":"MERN Stack, TailwindCSS, AppWrite, AI",
+    //     "detail2":"",
+    //     "detail3":""
+    // },
 
     
 ]
