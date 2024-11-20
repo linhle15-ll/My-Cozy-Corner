@@ -76,7 +76,7 @@ export const leardershipExperienceArr = [
         startDate: 'Sep 2023',
         endDate: 'Current',
         description1: 'Took charge of managing and hosting annual Vietnamese cultural events such as Vietnam Night, Coffee Workshop, and Lunar New Year, thus enhancing community engagement and awareness of Vietnamese culture',
-        description2: 'Successfully organized and performed in 2023 Vietnam Night, as measured by the attendance of > 200 students and faculties in Five College Consortium and 60% increase in Media promotion'
+        description2: 'Successfully organized and performed in 2024 Vietnam Night, as measured by the attendance of > 200 students and faculties in Five College Consortium and 60% increase in Media promotion'
     },
     {
         key: 2,

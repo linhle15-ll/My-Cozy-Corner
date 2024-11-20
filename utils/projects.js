@@ -7,20 +7,21 @@ import LeafShield from "@/public/LeafShield.png"
 import mywebsiteimg from "@/public/mywebsite.png"
 import noteapp from "@/public/noteapp.png"
 import aitaskapp from "@/public/taskapp.png"
+import HackrMap from "@/public/hackrmap.png"
 
 export const projectsArr = [
     {
         "key": 1,
-        "image":STEAMimg,
+        "image":HackrMap,
         "icon":STEAMlogo,
-        "date":"April 2022 - April 2024",
-        "link":" https://web.facebook.com/thesteamprojectvn",
-        "title":"The STEAM Project",
-        "role":"Co-founder, Project Manager",
-        "description":"Educational Science-Technology-Engineering-Arts-Math project",
-        "detail1":"Co-founded and led a project pioneering STEAM education focusing on science experiments, math and coding challenges, and group presentations for 140 underprivileged students interested in Science and Technology in Ha Tinh, Vietnam",
-        "detail2":"Managed project operation with department leaders and 50 members, successfully organized 2 STEAM Summer Camps",
-        "detail3":"Provided mentorship in programming logic and fundamental coding to student campers in 2022 and 2023"
+        "date":"October 2024",
+        "link":"https://github.com/JoeyCorbett/hackrmap",
+        "title":"HackrMap (HackHavard2024)",
+        "role":"Frontend Developer",
+        "description":"AI-driven web application help hackers generate dev flow",
+        "detail1":"Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
+        "detail2":"Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions",
+        "detail3":""
     },
     {
         "key": 2,
@@ -41,7 +42,7 @@ export const projectsArr = [
         "icon":"",
         "date":"March 2024",
         "link":"https://devpost.com/software/leaf-shield",
-        "title":"Leaf Shield",
+        "title":"Leaf Shield (YHack2024)",
         "role":"UI/UX Designer, Presenter",
         "description":"Application promoting Sustainable Agriculture",
         "detail1":"Worked cooperatively to create a web and mobile application that assists farmers to detect dark spot on leaves, which utilizes Machine Learning to detect potential crop blight with an accuracy up to 98.05%",
