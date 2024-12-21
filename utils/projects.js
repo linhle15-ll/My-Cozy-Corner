@@ -84,7 +84,7 @@ export const projectsArr = [
         "date":"2024",
         "link":"https://github.com/linhle15-ll/Note-App",
         "title":"Notie (In progress)",
-        "role":"Full-stacke Developer",
+        "role":"Full-stack Developer",
         "description":"A Note Bestie",
         "detail1":"MERN Stack, Zustand, UI Libraries",
         "detail2":"",

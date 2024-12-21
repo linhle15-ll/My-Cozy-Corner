@@ -10,7 +10,7 @@ export const experienceArr = [
     {
         key: 1,
         title: 'Relevant Coursewords',
-        description: "Intro to Programming, Data Structures, Discrete Mathematics, Intermediate Statistics",
+        description: "Data Structures, Software Design and Development, Discrete Mathematics, Intermediate Statistics, Linear Algebra, Math Experimentation",
         icon: CourseworksIcon
     },
     {
