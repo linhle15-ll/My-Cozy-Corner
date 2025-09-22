@@ -1,15 +1,44 @@
 import STEAMlogo from '@/public/STEAMlogo.jpg'
 import PennyWiseLogo from "@/public/PennyWiseLogo.png"
-import STEAMimg from "@/public/STEAMimg.jpg"
 import PennyWiseGif from "@/public/PennyWiseGif.gif"
 import Elabrary from "@/public/Elabrary.png"
 import LeafShield from "@/public/LeafShield.png"
 import mywebsiteimg from "@/public/mywebsite.png"
-import noteapp from "@/public/noteapp.png"
-import aitaskapp from "@/public/taskapp.png"
 import HackrMap from "@/public/hackrmap.png"
+import SubleazyLogo from "@/public/subleazy_logo.png"
+import Subleazyimg from "@/public/subleazyimg.png"
 
 export const projectsArr = [
+    {
+        "key": 0,
+        "image":Subleazyimg,
+        "icon":SubleazyLogo,
+        "date":"April 2025 - Present",
+        "link":"https://github.com/linhle15-ll/subleazy",
+        "title":"Subleazy (Viet Tech Hackathon 2025)",
+        "role":"Tech Lead, Full-stack Developer",
+        "description":"Web app streamlining student subleasing",
+        "details": [
+            "Technologies: TypeScript, MongoDB, Next.js, Node.js, REST API, OpenAI API, Google Map API, Cloudinary, Tiptap, WebSocket, Socket.IO, Yjs, TanStack React Query, Shadcn, Figma, Postman, Unit Testing",
+            "Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
+            "Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions"
+        ],
+    },
+    // {
+    //     "key": 0.1,
+    //     "image":Subleazyimg,
+    //     "icon":SubleazyLogo,
+    //     "date":"July 2025 - Sep 2025",
+    //     "link":"",
+    //     "title":"OCR Gateway (FPT IS Internship)",
+    //     "role":"Software Engineer Intern",
+    //     "description":"Web app streamlining student subleasing",
+    //     "details": [
+    //         "Technologies: TypeScript, MongoDB, Next.js, Node.js, REST API, OpenAI API, Google Map API, Cloudinary, Tiptap, WebSocket, Socket.IO, Yjs, TanStack React Query, Shadcn, Figma, Postman, Unit Testing",
+    //         "Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
+    //         "Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions"
+    //     ],
+    // },
     {
         "key": 1,
         "image":HackrMap,
@@ -19,9 +48,11 @@ export const projectsArr = [
         "title":"HackrMap (HackHavard2024)",
         "role":"Frontend Developer",
         "description":"AI-driven web application help hackers generate dev flow",
-        "detail1":"Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
-        "detail2":"Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions",
-        "detail3":""
+        "details": [
+            "Technologies: TypeScript, React, React Flow, OpenAI API, Figma, Postman",
+            "Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
+            "Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions"
+        ],
     },
     {
         "key": 2,
@@ -32,9 +63,12 @@ export const projectsArr = [
         "title":"PennyWise",
         "role":"Full-stack Developer",
         "description":"A MERN stack for financial management",
-        "detail1":"Developed and established a full-stack open-source financial app project using MERN stack, Zustand, and UI Libraries",
-        "detail2":"Created REST API endpoints using Express.js and MongoDB to handle data management and backend-frontend interactions",
-        "detail3":"Designed an algorithm in Budget planning that aligns with users’ habit in financial updates and planning"
+        "details": [
+            "Technologies: TypeScript, MongoDB, Next.js, Node.js, Express.js, REST API, Clerk, Zustand, MaterialUI, Postman",
+            "Developed and established a full-stack open-source financial app project using MERN stack, Zustand, and UI Libraries",
+            "Created REST API endpoints using Express.js and MongoDB to handle data management and backend-frontend interactions",
+            "Designed an algorithm in Budget planning that aligns with users’ habit in financial updates and planning"
+        ],
     },
     {
         "key": 3,
@@ -45,9 +79,11 @@ export const projectsArr = [
         "title":"Leaf Shield (YHack2024)",
         "role":"UI/UX Designer, Presenter",
         "description":"Application promoting Sustainable Agriculture",
-        "detail1":"Worked cooperatively to create a web and mobile application that assists farmers to detect dark spot on leaves, which utilizes Machine Learning to detect potential crop blight with an accuracy up to 98.05%",
-        "detail2":"Took major charge of Figma mockup, front-end, and worked partially on background data research for presentation",
-        "detail3":""
+        "details": [
+            "Technologies: Figma, React Native, Python (Flask), TensorFlow, Keras, OpenCV, Postman",
+            "Worked cooperatively to create a web and mobile application that assists farmers to detect dark spot on leaves, which utilizes Machine Learning to detect potential crop blight with an accuracy up to 98.05%",
+            "Took major charge of Figma mockup, front-end, and worked partially on background data research for presentation"
+        ],  
     },
     
     {
@@ -59,9 +95,11 @@ export const projectsArr = [
         "title":"ELabrary",
         "role":"Co-founder, Project Manager",
         "description":"Website promoting student's English self-study",
-        "detail1":"Led a team of 5 members and organized 3 weekly meetings to develop Elabrary, a website helping HS English Club reach out to other students and offer them quality English self-study content",
-        "detail2":"Contributed to an increase of 60% in HS English Club’s awareness within Ha Tinh student community",
-        "detail3":""
+        "details": [
+            "Technologies: WordPress, Canva",
+            "Led a team of 5 members and organized 3 weekly meetings to develop Elabrary, a website helping HS English Club reach out to other students and offer them quality English self-study content",
+            "Contributed to an increase of 60% in HS English Club’s awareness within Ha Tinh student community"
+        ],
     },
     {
         "key": 5,
@@ -72,38 +110,11 @@ export const projectsArr = [
         "title":"My Cozy Corner",
         "role":"Full-stack Developer",
         "description":"My personal website",
-        "detail1":"Designed and Updated my own website using Figma and MERN stack",
-        "detail2":"",
-        "detail3":""
+        "details": [
+            "Technologies: Figma, MERN stack, MaterialUI, Vercel",
+            "Designed and Updated my own website using Figma and MERN stack"
+        ],
     },
-
-    {
-        "key": 6,
-        "image": noteapp,
-        "icon":"",
-        "date":"2024",
-        "link":"https://github.com/linhle15-ll/Note-App",
-        "title":"Notie (In progress)",
-        "role":"Full-stack Developer",
-        "description":"A Note Bestie",
-        "detail1":"MERN Stack, Zustand, UI Libraries",
-        "detail2":"",
-        "detail3":""
-    },
-
-    // {
-    //     "key": 6,
-    //     "image": aitaskapp,
-    //     "icon":"",
-    //     "date":"2024",
-    //     "link":"https://github.com/linhle15-ll/AITaskApp",
-    //     "title":"AI Task App (In progress)",
-    //     "role":"Full-stack Developer",
-    //     "description":"Bored of Tasking? Let AI Task App handle it",
-    //     "detail1":"MERN Stack, TailwindCSS, AppWrite, AI",
-    //     "detail2":"",
-    //     "detail3":""
-    // },
 
     
 ]

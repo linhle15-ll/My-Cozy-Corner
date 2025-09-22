@@ -10,7 +10,7 @@ import 'react-social-icons/instagram'
 const Home = () => {
   const saveFile = () => {
     saveAs(
-      "/Ngoc Linh Le, le224l@mtholyoke.edu, resume.pdf",
+      "/Ngoc_Linh_Le_Resume.pdf",
       "NgocLinhLe_resume.pdf"
     );
   };

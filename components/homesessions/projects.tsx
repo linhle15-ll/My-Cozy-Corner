@@ -41,15 +41,11 @@ const Projects = () => {
                             <h3 className="font-poppins mt-2 text-h10 font-400 text-white">{item.description}</h3>
 
                             <div className="hide hidden group-hover:block">
-                                <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
-                                    {item.detail1}
-                                </p>
-                                <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
-                                    {item.detail2}
-                                </p>
-                                <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
-                                    {item.detail3}
-                                </p>
+                                {item.details?.map((detail) => (
+                                    <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+                                        {detail}
+                                    </p>
+                                ))}
 
                                 <button onClick={() => window.open(item.link, '_blank', 'noopener,noreferrer')} 
                                         className="flex flex-row gap-2 font-poppins text-white font-semibold items-center justify-center white border-2 border-darkPink rounded-lower py-1 px-5 mt-10

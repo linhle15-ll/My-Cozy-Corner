@@ -3,9 +3,7 @@ import React from "react";
 import Image from 'next/image'
 import { workExperienceArr } from "@/utils/experiences";
 
-
 const WorkExperience = () => {
-    
     return (
         <div className="font-poppins p-5">
             <div className="flex flex-col gap-9 items-center justify-center md:flex md:flex-col lg:flex lg:flex-col lg:justify-start">
@@ -35,9 +33,9 @@ const WorkExperience = () => {
                             <h3 className="text-xl font-medium sm:text-2xl">{item.title}</h3>
                             <div className="mt-2 text-lg font-medium sm:text-xl">{item.organization}</div>
                             <div className="flex flex-col gap-4 mt-4 text-sm sm:text-base leading-6 text-start">
-                                <div>{item.description1}</div>
-                                <div>{item.description2}</div>
-                                <div>{item.description3}</div>
+                                {item.descriptions?.map((str: string, idx: number) => (
+                                    <div key={idx}>{str}</div>
+                                ))}
                             </div>
                         </div>
                     </div>

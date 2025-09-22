@@ -22,7 +22,7 @@ const About = () => {
                 >
                     <span> Hello, I am Linh/Ngoc Linh Le, a passionate
                         Computer Science and Mathematics/ Statistics student with hands-on experience in 
-                        Full-stack Web Application Development.
+                        Software Engineering, specifically Full-stack Application Development, Microservice Architecture, Cloud Services, AI Implementation.
                         I gained my experience via my Internship and Coding Projects. 
                     </span>
 
@@ -30,13 +30,13 @@ const About = () => {
                         I am interested in reading about and practicing new tech stacks.
                         I also join organizations that promote Tech acquisition.
                     </span>
-                    <span> Come and <a href="#contact" className="font-bold">connect with me</a>! </span>
+                    <span> Come and <a href="#contact" className="font-semibold text-darkPink">connect with me</a>! </span>
                     <div className="bg-white rounded-low p-5 flex flex-col">
                         <span className="font-poppins text-darkPink font-semibold text-h8">EDUCATION</span>
                         <span className="font-poppins mt-4 text-black leading-7">
-                            Double majors: Computer Science & Mathematics/ Statistics <br/>
+                            Majors: Computer Science and Mathematics<br/>
                             Mount Holyoke College <br/>
-                            GPA: 4.0/4.0
+                            GPA: 3.73/4.0
                         </span>
 
                     </div>
