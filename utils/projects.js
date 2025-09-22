@@ -20,8 +20,9 @@ export const projectsArr = [
         "description":"Web app streamlining student subleasing",
         "details": [
             "Technologies: TypeScript, MongoDB, Next.js, Node.js, REST API, OpenAI API, Google Map API, Cloudinary, Tiptap, WebSocket, Socket.IO, Yjs, TanStack React Query, Shadcn, Figma, Postman, Unit Testing",
-            "Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
-            "Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions"
+            "Awarded Best UI/UX, 2nd Favorite Project and Best Tech Lead at the 3-month Viet Tech Hackathon.",
+            "Built a contract automation editor, enabling AI-assisted review of agreements.",
+            "Engineered a recommendation system combining vector search and text search to align customed housing preferences and suggest optimal sublease options."
         ],
     },
     // {
