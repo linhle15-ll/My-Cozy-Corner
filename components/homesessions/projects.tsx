@@ -41,8 +41,8 @@ const Projects = () => {
                             <h3 className="font-poppins mt-2 text-h10 font-400 text-white">{item.description}</h3>
 
                             <div className="hide hidden group-hover:block">
-                                {item.details?.map((detail) => (
-                                    <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+                                {item.details?.map((detail,idx) => (
+                                    <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95" key={idx}>
                                         {detail}
                                     </p>
                                 ))}
