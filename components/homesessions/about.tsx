@@ -20,21 +20,21 @@ const About = () => {
                                 md:w-[90%] md:text-center 
                                 lg:w-[75%] lg:text-start"
                 >
-                    <span> Hello, I am Linh/Ngoc Linh Le, a passionate
-                        Computer Science and Mathematics/ Statistics student with hands-on experience in 
-                        Software Engineering, specifically Full-stack Application Development, Microservice Architecture, Cloud Services, AI Implementation.
-                        I gained my experience via my Internship and Coding Projects. 
+                    <span>
+                    Hi, I’m <strong>Ngoc Linh Le</strong> — a Computer Science student with a strong foundation in 
+                    <em>Software Engineering, Full-stack Development, Microservice Architecture, Cloud Services, and AI-driven solutions</em>.  
+                    I’ve built this experience through internships and leading hands-on coding projects.
                     </span>
 
                     <span>
-                        I am interested in reading about and practicing new tech stacks.
-                        I also join organizations that promote Tech acquisition.
+                    Beyond the classroom, I love exploring new technologies, experimenting with diverse tech stacks, 
+                    and contributing to communities that empower others to grow in tech. I love jogging and playing badminton in my free time too!
                     </span>
                     <span> Come and <a href="#contact" className="font-semibold text-darkPink">connect with me</a>! </span>
                     <div className="bg-white rounded-low p-5 flex flex-col">
                         <span className="font-poppins text-darkPink font-semibold text-h8">EDUCATION</span>
                         <span className="font-poppins mt-4 text-black leading-7">
-                            Majors: Computer Science and Mathematics<br/>
+                            Majors: Computer Science<br/>
                             Mount Holyoke College <br/>
                             GPA: 3.73/4.0
                         </span>
