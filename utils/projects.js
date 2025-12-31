@@ -7,7 +7,8 @@ import mywebsiteimg from "@/public/mywebsite.png"
 import HackrMap from "@/public/hackrmap.png"
 import SubleazyLogo from "@/public/subleazy_logo.png"
 import Subleazyimg from "@/public/subleazyimg.png"
-
+import OCRGatewayimg from "@/public/OCRGateway.png"
+import OCRReview from "@/public/OCRReview.gif"
 export const projectsArr = [
     {
         "key": 0,
@@ -25,21 +26,21 @@ export const projectsArr = [
             "Engineered a recommendation system combining vector search and text search to align customed housing preferences and suggest optimal sublease options."
         ],
     },
-    // {
-    //     "key": 0.1,
-    //     "image":Subleazyimg,
-    //     "icon":SubleazyLogo,
-    //     "date":"July 2025 - Sep 2025",
-    //     "link":"",
-    //     "title":"OCR Gateway (FPT IS Internship)",
-    //     "role":"Software Engineer Intern",
-    //     "description":"Web app streamlining student subleasing",
-    //     "details": [
-    //         "Technologies: TypeScript, MongoDB, Next.js, Node.js, REST API, OpenAI API, Google Map API, Cloudinary, Tiptap, WebSocket, Socket.IO, Yjs, TanStack React Query, Shadcn, Figma, Postman, Unit Testing",
-    //         "Worked cooperatively in a team of four students to develop Hackrmap, an AI-driven web application designed to help hackers start their project quickly by crafting a personalized, step-by-step roadmap",
-    //         "Designed a core development flow using graph algorithm with React Flow and an exemplary structured output JS file that facilitates efficient prompt engineering using OpenAI Chat Completions"
-    //     ],
-    // },
+    {
+        "key": 0.1,
+        "image":OCRReview,
+        "icon":OCRGatewayimg,
+        "date":"June 2025 - Sep 2025",
+        "link":"https://github.com/linhle15-ll/OCR-gateway-application",
+        "title":"OCR Gateway (FPT IS Internship)",
+        "role":"Software Engineer Intern",
+        "description":"OCR Gateway application for document processing",
+        "details": [
+            "Technologies: FastAPI (Python APIs), JWT-based authentication, MongoDB (database), MinIO (object storage), OCR processing service, Docker (containerization)",
+            "The OCR Gateway Application is a full-stack, microservice-based system for uploading and processing documents (PDFs/images), performing OCR, ",
+            "and managing review and confirmation workflows. It is designed to deliver a seamless and reliable OCR experience at scale."
+        ],
+    },
     {
         "key": 1,
         "image":HackrMap,
