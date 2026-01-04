@@ -9,10 +9,12 @@ import SubleazyLogo from "@/public/subleazy_logo.png"
 import Subleazyimg from "@/public/subleazyimg.png"
 import OCRGatewayimg from "@/public/OCRGateway.png"
 import OCRReview from "@/public/OCRReview.gif"
+import Subleazy from "@/public/subleazy.gif"
+
 export const projectsArr = [
     {
         "key": 0,
-        "image":Subleazyimg,
+        "image":Subleazy,
         "icon":SubleazyLogo,
         "date":"April 2025 - Present",
         "link":"https://github.com/linhle15-ll/subleazy",
