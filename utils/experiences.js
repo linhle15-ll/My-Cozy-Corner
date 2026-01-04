@@ -47,8 +47,7 @@ export const workExperienceArr = [
             'Architected and implemented a full-stack OCR gateway with FastAPI and MongoDB, enabling seamless and highly secure document uploading and processing for 1000+ active users.',
             'Designed and deployed 15+ API endpoints and a modular microservice architecture and data modeling for authentication with JWT, input classification, OCR execution, storage, delivery.',
             'Built the frontend architecture with Next.js, NextUI, Axios, and React Query, optimizing server state management and enhancing user experience with responsive UI/UX.',
-            'Containerized microservices with Docker, creating a shared network for inter-service communication and ensuring consistent, scalable deployments across multiple environments.',
-            'Integrated asynchronous message queues (RabbitMQ) to optimize throughput and reduce latency by 25\%.'
+            'Containerized microservices with Docker, creating a shared network for inter-service communication and ensuring consistent, scalable deployments across multiple environments.'
         ]
     },
     {

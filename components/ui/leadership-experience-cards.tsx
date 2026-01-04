@@ -9,8 +9,12 @@ const LeadershipExperience = () => {
         <div className="font-poppins p-5">
             <div className="flex flex-col gap-9 items-center justify-center md:flex md:flex-col lg:flex lg:flex-col lg:justify-start">
                 {leardershipExperienceArr.map((item) => (
-                    <div
+                    <>
+                    <button
+                        onMouseEnter={() => setHoveredKey(String(item.key))}
+                        onMouseLeave={() => setHoveredKey(null)}
                         key={item.key}
+                        onClick={() => window.open(item.link, '_blank', 'noopener,noreferrer')}
                         className="group relative block w-full max-w-[900px] h-auto shadow-md p-9 rounded-low bg-darkGreen border-2 text-white border-white
                                 transition-all duration-500 ease-in-out
                                 hover:text-black hover:bg-white hover:border-2 hover:border-green"
@@ -18,8 +22,8 @@ const LeadershipExperience = () => {
                         <div className="flex flex-col h-full justify-between items-center">
                             {/* Uncomment this if you want to use the icon */}
                             <div className="relative">
-                                <button
-                                    onClick={() => window.open(item.link, '_blank', 'noopener,noreferrer')}
+                                <div
+                                    // onClick={() => window.open(item.link, '_blank', 'noopener,noreferrer')}
                                     onMouseEnter={() => setHoveredKey(String(item.key))}
                                     onMouseLeave={() => setHoveredKey(null)}
                                     className="mb-4 h-[100px] w-[100px] rounded-[100%] overflow-hidden bg-white flex items-center justify-center border-2 border-green
@@ -31,7 +35,7 @@ const LeadershipExperience = () => {
                                         width={198}
                                         height={198}
                                     />
-                                </button>
+                                </div>
 
                                 {hoveredKey === String(item.key) && (
                                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-full
@@ -42,6 +46,7 @@ const LeadershipExperience = () => {
                                     </div>
                                 )}
                             </div>
+                            
 
                             <h3 className="text-xl font-medium sm:text-2xl">{item.title}</h3>
                             <div className="mt-2 text-lg font-medium sm:text-xl">{item.organization}</div>
@@ -50,7 +55,8 @@ const LeadershipExperience = () => {
                                 <li>{item.description2}</li>
                             </ul>
                         </div>
-                    </div>
+                    </button>
+                    </>
                 ))}
             </div>
         </div>
