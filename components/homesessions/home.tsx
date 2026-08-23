@@ -30,7 +30,7 @@ const Home = () => {
           An aspiring software engineer
           </div>
       </div>
-      <div className = "flex flex-row gap-5 text-center">
+      {/* <div className = "flex flex-row gap-5 text-center">
           <button  onClick={saveFile} className=" flex flex-row gap-1 bg-green text-white font-poppins font-bold rounded-lower py-2 px-6 mt-16 text-[12px]
           md:text-[14px] md:py-4 md:px-8
           lg:text-[16px] lg:py-4 lg:px-[20px]
@@ -45,7 +45,7 @@ const Home = () => {
           hover:border-darkerGreen hover:transition-all transform hover:scale-90 hover:text-darkGreen">
           Connect!
           </a>
-      </div>
+      </div> */}
       <div className="flex flex-row gap-5 mt-16 mb-[15%]">
           <SocialIcon url="https://www.linkedin.com/in/ngoclinhle15/" className="hover:transition-all transform hover:scale-90" />
           <SocialIcon url="https://github.com/linhle15-ll" className="hover:transition-all transform hover:scale-90" />

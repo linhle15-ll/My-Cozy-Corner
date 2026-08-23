@@ -55,7 +55,7 @@ const Contact = () => {
                                     lg:flex-row lg:text-left lg:items-start">
                         {EmailIcon}
                     </span>
-                    <span className="text-h9 text-center lg:text-left">le224l@mtholyoke.edu</span>
+                    <span className="text-h9 text-center lg:text-left">lengoclinhht2020@gmail.com</span>
                 </div>
 
                 <div className="flex flex-row gap-8 mt-5 justify-center lg:justify-start lg:items-start">

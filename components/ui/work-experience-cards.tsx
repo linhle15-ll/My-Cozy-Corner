@@ -33,7 +33,7 @@ const WorkExperience = () => {
                             <h3 className="text-xl font-medium sm:text-2xl">{item.title}</h3>
                             <div className="mt-2 text-lg font-medium sm:text-xl">{item.organization}</div>
                             <div className="flex flex-col gap-4 mt-4 text-sm sm:text-base leading-6 text-start">
-                                {item.descriptions?.map((str: string, idx: number) => (
+                                {item.descriptions?.map((str, idx) => (
                                     <div key={idx}>{str}</div>
                                 ))}
                             </div>
