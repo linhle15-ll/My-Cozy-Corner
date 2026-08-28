@@ -44,7 +44,7 @@ const Contact = () => {
             <div className="flex flex-col w-full lg:w-[50%] gap-1 lg:items-start">
                 <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
                     <span className="font-poppins text-h4 font-semibold md:text-h2 lg:text-h1">
-                        GET <span className="text-green"> IN TOUCH</span>
+                        GET <span className="text-green "> IN TOUCH</span>
                     </span>
                     <span className="font-poppins text-h5 md:text-h3 lg:text-h1">with me</span>
                 </div>
