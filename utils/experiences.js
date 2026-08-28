@@ -4,13 +4,13 @@
     AppICon,
     ToolIcon,
     } from "@/utils/icons";
-    import VIBlogo from "@/public/VIBlogo.png";
+    // import VIBlogo from "@/public/VIBlogo.png";
     import STEAMlogo from "@/public/STEAMlogo.jpg";
     import GWC from "@/public/GWC.png";
     import VSA from "@/public/VSA.png";
     import MHCLogo from "@/public/MHCLogo.png";
     import FPTISLogo from "@/public/fptis_logo.jpeg";
-    import CarGurusLogo from "@/public/cargurus_logo.jpg";
+    import CarGurusLogo from "@/public/cargurus_logo.png";
     import MetaMLHLogo from "@/public/meta_mlh_logo.gif";
 
     export const experienceArr = [
